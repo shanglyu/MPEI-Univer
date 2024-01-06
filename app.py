@@ -5,7 +5,7 @@ import datetime
 from functools import wraps
 
 app = Flask(__name__)
-SECRET = 'this_is_key'
+#SECRET = ''
 DATABASE = 'users.db'
 
 def get_db():
